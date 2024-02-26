@@ -1,0 +1,199 @@
+
+@media (max-width: 799px) {
+    .section-p1{
+        padding: 40px 40px;
+    }
+    /*Header*/
+    #mobile-menu{
+        display: block;
+    }
+
+    #mobile-menu i{
+        color: #1a1a1a;
+        font-size: 24px;    
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #cart-bag{
+        display: none;
+    }
+    #close-mobile{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        display: initial;
+    }
+    #close-mobile a{
+        list-style: none;
+        font-size: 20px;
+    }
+    #navbar.active{
+        right: 0;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    /*Hero*/
+    #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    /*Features*/
+    #features{
+        justify-content:center;
+    }
+    #features .feature-box {
+        margin: 15px 15px;
+    }
+    /*Products*/
+    #feature-products .product-container {
+        justify-content: center;
+    }
+    #feature-products .product-item {
+        margin: 15px;
+    }
+    /*Banner*/
+    #banner {
+        height: 20vh;
+    }
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+    }
+    #banner2{
+        padding: 0 40px;
+    }
+    #banner2 .banner-box{
+        width: 28%;
+    }
+    /*Newsletter*/
+    #newsletter{
+        justify-content: center;
+    }
+    .form-letter {
+        width: 70%;
+    }
+}
+@media (max-width: 477px) {
+    #header{
+        padding: 10px 30px;
+    }
+    #navbar{
+        width: 200px;
+    }
+    #hero {
+        padding: 0 20px;
+        background-position: 60%;
+    }
+    .section-p1{
+        padding: 20px;
+    }
+    #features{
+        justify-content: space-between;
+    }
+    #features .feature-box{
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+    #hero h4{
+        font-size: 26;
+    }
+    #hero h2{
+        font-size: 32px;
+    }
+    #hero h1{
+        font-size: 38px;
+    }
+    #hero p{
+        font-size: 12px;
+    }
+    footer {   
+        flex-direction: column;
+    }
+    #feature-products .product-item {
+        width: 100%;
+    
+    }
+    #banner{
+        height: 40vh;
+    }
+    #sm-banner .banner-box{
+        height: 40vh;
+    }
+    #sm-banner .banner-box2{
+        margin-top: 10px;
+    }
+    #banner2 {
+        padding: 0 20px;
+    }
+    #banner2 .banner-box{
+        width: 100%;
+    }
+    /*Blog page*/
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-box {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        padding-bottom: 90px;
+    }
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-detail {
+        width: 100%;
+    }
+    /*About*/
+    #about .about-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-container img {
+        width: 100%;
+        height: auto;
+    }
+    .about-container .about-detail {
+        padding-left: 0px;
+    }
+    #about-app .video video {
+        width: 100%;
+
+    }
+}
+@media (max-width: 670px) {
+        /*Signle product*/
+        #product-detail{
+            display: flex;
+            flex-direction: column;
+        }
+        #product-detail .single-pro-img{
+            width: 100%;
+            margin-right: 0px;
+        }
+        #product-detail .single-pro-detail{
+            width: 100%;
+        }
+}
